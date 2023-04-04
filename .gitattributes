@@ -1,0 +1,4 @@
+data/beer_df.csv filter=lfs diff=lfs merge=lfs -text
+data/beer_reviews.csv filter=lfs diff=lfs merge=lfs -text
+*.csv filter=lfs diff=lfs merge=lfs -text
+.gitattributes filter=lfs diff=lfs merge=lfs -text
