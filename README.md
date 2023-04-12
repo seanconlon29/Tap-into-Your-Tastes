@@ -1,9 +1,12 @@
-# Phase-5-Capstone
+# Beer Recommendation System 
+### <i> Performed using multiple machine learning models and filtering techniques to predict the overall rating of a beer based on the beer's style, brewery, and reviews. </i> 
 
-<p>
-    Merged datasets of breweries within the United States and 1.5 million reviews of beers. 
+#### Author: [Sean Conlon](https://www.linkedin.com/in/seanconlon29/)
 
-</p>
+## Overview
+    <p>
+       Using datasets from the links provided below, I found the dataset containing breweries across the United States and a dataset containing over 1.5 million reviews of beers. I merged the two datasets together creating a beer_df. This was then used to create a beer recommender system using multiple machine learning models and filtering techniques.
+    </p>
 
 
 ## Table of Contents
@@ -14,7 +17,7 @@
 - [Exploratory Data Analysis](#exploratory-data-analysis)
 - [Modeling](#modeling)
 - [Conclusion](#conclusion)
-
+- [Repository Structure](#repository-structure)
 
 ## Introduction
     <p>
@@ -45,4 +48,15 @@
         
     </p>
 
+## Repository Structure
 
+```
+├── data                                <- CSV data files
+├── Notebooks                   <- Jupyter notebooks dedicated to data exploration and modeling
+├── Models                              <- Data files used in analysis
+├── Collaborative-Based_Model.ipynb                <- Narrative documentation of Collaborative analysis in Jupyter notebook
+├── Item-Based_Model.ipynb                <- Narrative documentation of Item-Based analysis in Jupyter notebook
+├── Location-Based_Model.ipynb                <- Narrative documentation of Location-Based analysis in Jupyter notebook
+├── README.md                           <- The top-level README for reviewers of this project
+├── Presentation.pdf                    <- PDF version of project presentation
+```
