@@ -3,11 +3,19 @@
 
 #### Author: [Sean Conlon](https://www.linkedin.com/in/seanconlon29/)
 
-## Overview
-    <p>
-       Using datasets from the links provided below, I found the dataset containing breweries across the United States and a dataset containing over 1.5 million reviews of beers. I merged the two datasets together creating a beer_df. This was then used to create a beer recommender system using multiple machine learning models and filtering techniques.
+<figure>
+    <p align="center">
+    <img src="Illustrations/"
+         alt="Beer Picture for README"
+         width="700"
+         height="400">
     </p>
+</figure>
 
+
+## Overview
+
+Using datasets from the links provided below, I found the dataset containing breweries across the United States and a dataset containing over 1.5 million reviews of beers. I merged the two datasets together creating a beer_df. This was then used to create a beer recommender system using multiple machine learning models and filtering techniques.
 
 ## Table of Contents
 
@@ -20,9 +28,9 @@
 - [Repository Structure](#repository-structure)
 
 ## Introduction
-    <p>
-        This project is a culmination of the skills I have learned in the Flatiron School Data Science program. The goal of this project is to create a model that can predict the overall rating of a beer based on the beer's style, brewery, and review. 
-    </p>
+
+This project is a culmination of the skills I have learned in the Flatiron School Data Science program. The goal of this project is to create a model that can predict the overall rating of a beer based on the beer's style, brewery, and review. 
+
 
 ## Data Sources
     <p>
