@@ -7,8 +7,8 @@
     <p align="center">
     <img src="Illustrations/beerbackground.webp"
          alt="Beer Picture for README"
-         width="700"
-         height="400">
+         width="800"
+         height="450">
     </p>
 </figure>
 
