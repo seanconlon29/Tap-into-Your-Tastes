@@ -5,7 +5,7 @@
 
 <figure>
     <p align="center">
-    <img src="Illustrations/"
+    <img src="Illustrations/beerbackground.webp"
          alt="Beer Picture for README"
          width="700"
          height="400">
