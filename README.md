@@ -45,11 +45,4 @@
         
     </p>
 
-- [Future Work](#future-work)
-## Future Work
-    <p>
-        
-    </p>
-
-
 
