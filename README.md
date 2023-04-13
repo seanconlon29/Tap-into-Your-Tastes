@@ -27,7 +27,7 @@
 
 - [Data Cleaning](#data-cleaning)
 - [Modeling](#modeling)
-- [Visualization[(#visualization)]
+- [Visualization](#visualization)]
 - [Conclusion](#conclusion)
 - [Repository Structure](#repository-structure)
 
