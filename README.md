@@ -27,7 +27,7 @@
 
 - [Data Cleaning](#data-cleaning)
 - [Modeling](#modeling)
-- [Visualization[(#visualization)]
+- [Visualization](#visualization)
 - [Conclusion](#conclusion)
 - [Repository Structure](#repository-structure)
 
@@ -48,16 +48,60 @@ Data cleaning was performed using the following steps:
 
 
 ## Modeling
-    <p>
-        
-    </p>
+All models performed were using the surprise package and model tuning considering GridSearchCV as well as RandomizedSearchCV. Each model has an accuracy score that is sufficient enough to be less than half a rat off from the actual rating. These models include the Collaborative Model which prioritizes the users reviews, Item-Based Model which prioritizes each feature that was rated and combined into an Ensemble Model to very accurately predict a beer's alcohol by volume (ABV) based on the brewery the beer was from. The last model created was Location-Based which takes advantage of the latitude and longitude coordinates to provide the necessary recommentations. 
+
+#### Collaborative-Model
+This model was created in order to predict a user's rating based off of similar users ratings of certain beers. Using this information it will then provide an accurate list of 5 beers that the user will most likely enjoy. The recommendations created were for not only recommending beers, but also breweries that produce similar beers as to the ones highly-rated. 
+
+<p>
+    insert code snip of model with recommendations for user
+</p> 
+
+<br> 
+    
+#### Item-Based Model
+In order for an Item-based model to correctly predict what a users preference would be, there must be certain features of the beers within the dataset. Luckily there were reviews on certain features of each beer rating. These included:
+- Aroma
+    - The smell of the beer, rated from good to bad. 
+- Appearance
+    - The look of the beer, taking into account the coloration as well as the label.
+- Taste
+    - The flavoring of the beer.
+- Palate
+    - This is where the carbonation, mouthfeel, alcohol profile and texture really come in.
+
+<p>
+    insert code snip of model with recommendations for user
+</p> 
+
+<br>
+
+#### Ensemble Model
+As a bonus model, this was created in order to see how a user will rate a beer based on the alcohol percentage. By many of those who avidly drink beers, they consider beers with a high to very-high alcohol percentage to be of bitter-taste and flavorless resulting in a low rating for most. 
+
+<p>
+    insert code snip of model with recommendations for user
+</p> 
+
+<br> 
+
+#### Location-Based Model
+Considering the dataset includes information about the breweries, but also their locations. I felt the need to take advantage of the coordinates provided in order to give a great recommendation not only based on beers. The model was created using help from outside sources, given that I had no prior knowledge of the haversine formula. This formula combined with the coordinates as well as some functions creates a wonderful recommendation for each user.
+
+Each user will not only be able to see the nearest breweries based on their own coordinates, but also each breweries top 5 rated beers in order to help the user decide which brewery they would prefer. 
+
+<p>
+    insert code snip of model with recommendations for user
+</p> 
 
 <br>
 
 ## Visualization
-    <p>
-        
-    </p>
+Models that were created were for the recommendation engine, but in order to see the data we need to visualize our findings. The following visualizations were interesting parts of the analysis in which I came across during the modeling process. 
+
+<p>
+    insert visuals of cool interesting maybe even interactive visuals with the dataset
+</p> 
 
 <br>
 
