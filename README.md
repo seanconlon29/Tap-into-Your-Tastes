@@ -33,7 +33,7 @@
 
 ## Introduction
 
-This project is a culmination of the skills I have learned in the Flatiron School Data Science program. Using datasets from the links provided I found a dataset containing breweries across the United States [Brewery Dataset Here](https://www.kaggle.com/code/stansilas/mapping-brewery-pubs-across-us-states/input) and a dataset containing over 1.5 million reviews of beers [Review Dataset Here](https://www.kaggle.com/datasets/thedevastator/1-5-million-beer-reviews-from-beer-advocate). I merged the two datasets together creating a beer_df. This was then used to create a beer recommender system using multiple machine learning models and filtering techniques. The resulting dataset withheld approximately 160,000 reviews.
+This project was created through a culmination of the skills I have learned in the Data Science program at Flatiron School. Using datasets from the links provided I discovered a dataset containing breweries across the United States [Brewery Dataset Here](https://www.kaggle.com/code/stansilas/mapping-brewery-pubs-across-us-states/input) as well as a dataset containing over 1.5 million reviews of beers [Review Dataset Here](https://www.kaggle.com/datasets/thedevastator/1-5-million-beer-reviews-from-beer-advocate). I merged the two datasets together creating a beer_df. This was then used to create a beer recommender system using multiple machine learning models and filtering techniques. The resulting dataset withheld approximately 160,000 reviews.
 
 <br>
 
@@ -41,14 +41,14 @@ This project is a culmination of the skills I have learned in the Flatiron Schoo
 Data cleaning was performed using the following steps:
 1. Merging the two datasets into one dataframe labeled as beer_df.
 2. Only keeping the top 50 breweries within the United States, to reduce the size of the dataset and increase the accuracy of the models. 
-3. Removing any missing, unneeded duplicate values as well as outliers unnecessary for the analysis.
-4. Feature engineering of columns to create new features that would be useful for the analysis as well as data visualization.
+3. Removed all rows that contained less than 5000 entires per year, as it helpped the recommendation systems accuracy.
+4. Removing any missing, unneeded duplicate values as well as outliers unnecessary for the analysis.
+5. Feature engineering of columns to create new features that would be useful for the analysis as well as data visualization.
 
 <br>
 
-
 ## Modeling
-All models performed were using the surprise package and model tuning considering GridSearchCV as well as RandomizedSearchCV. Each model has an accuracy score that is sufficient enough to be less than half a rat off from the actual rating. These models include the Collaborative Model which prioritizes the users reviews, Item-Based Model which prioritizes each feature that was rated and combined into an Ensemble Model to very accurately predict a beer's alcohol by volume (ABV) based on the brewery the beer was from. The last model created was Location-Based which takes advantage of the latitude and longitude coordinates to provide the necessary recommentations. 
+All models performed were using the surprise package and model tuning considering GridSearchCV as well as RandomizedSearchCV. Each model has an accuracy score that is sufficient enough to be less than half a rate off from the actual rating. These models include the Collaborative Model which prioritizes the users reviews and the Item-Based Model which prioritizes each feature that was rated. They were then combined into an Ensemble Model to accurately predict a beer's alcohol by volume (ABV) based on the brewery the beer was from. The last model created was Location-Based which takes advantage of the latitude and longitude coordinates to provide the necessary recommentations. 
 
 #### Collaborative-Model
 This model was created in order to predict a user's rating based off of similar users ratings of certain beers. Using this information it will then provide an accurate list of 5 beers that the user will most likely enjoy. The recommendations created were for not only recommending beers, but also breweries that produce similar beers as to the ones highly-rated. 
@@ -97,7 +97,7 @@ Each user will not only be able to see the nearest breweries based on their own 
 <br>
 
 ## Visualization
-Models that were created were for the recommendation engine, but in order to see the data we need to visualize our findings. The following visualizations were interesting parts of the analysis in which I came across during the modeling process. 
+The models made were created for the recommendation engine, but in order to see the data we need to visualize our findings. The following visualizations were interesting parts of the analysis in which I came across during the modeling process. 
 
 <p>
     insert visuals of cool interesting maybe even interactive visuals with the dataset
