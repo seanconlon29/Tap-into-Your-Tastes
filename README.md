@@ -61,8 +61,8 @@ This model was created in order to predict a user's rating based off of similar 
     <p align="center">
     <img src="Models/Collab_Model.png"
          alt="Collaborative"
-         width="800"
-         height="450">
+         width="700"
+         height="200">
     </p>
 </figure>
 
@@ -75,8 +75,8 @@ As a Content-based model, this was created in order to see how a user will rate 
     <p align="center">
     <img src="Models/Content_Model.png"
          alt="Content"
-         width="800"
-         height="450">
+         width="700"
+         height="200">
     </p>
 </figure>
 
@@ -108,8 +108,8 @@ Each user will not only be able to see the nearest breweries based on their own 
     <p align="center">
     <img src="Models/Location_Model.png"
          alt="Location"
-         width="800"
-         height="450">
+         width="700"
+         height="200">
     </p>
 </figure>
 
@@ -120,7 +120,7 @@ The models made were created for the recommendation engine, but in order to see 
 
 <figure>
     <p align="center">
-    <img src="Models/beer_map.jpeg"
+    <img src="Models/beer_map.png"
          alt="Brewery Map"
          width="800"
          height="450">
