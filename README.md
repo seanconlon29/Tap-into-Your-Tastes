@@ -62,7 +62,7 @@ This model was created in order to predict a user's rating based off of similar 
     <img src="Models/Collab_Model.png"
          alt="Collaborative"
          width="700"
-         height="300">
+         height="200">
     </p>
 </figure>
 
@@ -75,7 +75,7 @@ As a Content-based model, this was created in order to see how a user will rate 
     <p align="center">
     <img src="Models/Content_Model.png"
          alt="Content"
-         width="700"
+         width="750"
          height="300">
     </p>
 </figure>
