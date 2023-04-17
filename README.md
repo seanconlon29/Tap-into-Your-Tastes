@@ -177,7 +177,7 @@ Additionally, the brewery can use the recommendation system to offer promotions 
 ├── Models                                  <- Data files used in analysis
 ├── Final_Notebook                          <- Notebook containing details about analysis and models
 ├── Collaborative-Based_Model.ipynb         <- Narrative documentation of Collaborative analysis in Jupyter notebook
-├── Item-Based_Model.ipynb                  <- Narrative documentation of Item-Based analysis in Jupyter notebook
+├── Content-Based_Model.ipynb               <- Narrative documentation of Content-Based analysis in Jupyter notebook
 ├── Location-Based_Model.ipynb              <- Narrative documentation of Location-Based analysis in Jupyter notebook
 ├── README.md                               <- A Overall Summary in README form of this project
 ├── Presentation.pdf                        <- PDF version of project presentation
