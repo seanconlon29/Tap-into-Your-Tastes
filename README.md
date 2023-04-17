@@ -50,7 +50,7 @@ Data cleaning was performed using the following steps:
 ## Modeling
 All models performed were using the surprise package and model tuning considering GridSearchCV as well as RandomizedSearchCV. Each model has an accuracy score that is sufficient enough to be less than half a rate off from the actual rating. These models include the Collaborative Model which prioritizes the users reviews and the Item-Based Model which prioritizes each feature that was rated. They were then combined into an Ensemble Model to accurately predict a beer's alcohol by volume (ABV) based on the brewery the beer was from. The last model created was Location-Based which takes advantage of the latitude and longitude coordinates to provide the necessary recommentations. 
 
-#### Collaborative-Model
+#### Collaborative Model
 This model was created in order to predict a user's rating based off of similar users ratings of certain beers. Using this information it will then provide an accurate list of 5 beers that the user will most likely enjoy. The recommendations created were for not only recommending beers, but also breweries that produce similar beers as to the ones highly-rated. 
 
 <p>
@@ -58,9 +58,18 @@ This model was created in order to predict a user's rating based off of similar 
 </p> 
 
 <br> 
-    
-#### Item-Based Model
-In order for an Item-based model to correctly predict what a users preference would be, there must be certain features of the beers within the dataset. Luckily there were reviews on certain features of each beer rating. These included:
+
+#### Content-Based Model
+As a Content-based model, this was created in order to see how a user will rate a beer based on the alcohol percentage. By many of those who avidly drink beers, they consider beers with a high to very-high alcohol percentage to be of bitter-taste and flavorless resulting in a low rating for most. Each beers alcohol percentage directly correlates to the beers types. For example, a beer with a high alcohol percentage is most likely a lager, while a beer with a low alcohol percentage is most likely a stout. 
+
+<p>
+    insert code snip of model with recommendations for user
+</p> 
+
+<br> 
+
+#### Ensemble Model
+As a bonus model, this ensemble was created to correctly predict what a users preference would be, there must be certain features of the beers within the dataset. Luckily there were reviews on certain features of each beer rating. These included:
 - Aroma
     - The smell of the beer, rated from good to bad. 
 - Appearance
@@ -75,15 +84,6 @@ In order for an Item-based model to correctly predict what a users preference wo
 </p> 
 
 <br>
-
-#### Ensemble Model
-As a bonus model, this was created in order to see how a user will rate a beer based on the alcohol percentage. By many of those who avidly drink beers, they consider beers with a high to very-high alcohol percentage to be of bitter-taste and flavorless resulting in a low rating for most. 
-
-<p>
-    insert code snip of model with recommendations for user
-</p> 
-
-<br> 
 
 #### Location-Based Model
 Considering the dataset includes information about the breweries, but also their locations. I felt the need to take advantage of the coordinates provided in order to give a great recommendation not only based on beers. The model was created using help from outside sources, given that I had no prior knowledge of the haversine formula. This formula combined with the coordinates as well as some functions creates a wonderful recommendation for each user.
