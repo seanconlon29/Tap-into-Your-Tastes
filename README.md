@@ -35,6 +35,10 @@
 
 This project was created through a culmination of the skills I have learned in the Data Science program at Flatiron School. Using datasets from the links provided I discovered a dataset containing breweries across the United States [Brewery Dataset Here](https://www.kaggle.com/code/stansilas/mapping-brewery-pubs-across-us-states/input) as well as a dataset containing over 1.5 million reviews of beers [Review Dataset Here](https://www.kaggle.com/datasets/thedevastator/1-5-million-beer-reviews-from-beer-advocate). I merged the two datasets together creating a beer_df. This was then used to create a beer recommender system using multiple machine learning models and filtering techniques. The resulting dataset withheld approximately 160,000 reviews.
 
+## Business Problem
+
+Many breweries that open end up ultimately failing due to their lack of communication with their consumers. This is a large issue with most businesses that open and is the leading cause of 85% of businesses closing. Each brewery that opens should adapt their business to using a recommendation system to not only help the brewery decide which beers generate more business, but also provide users with some options and opportunities to try the assortment of beers types. 
+
 <br>
 
 ## Data Cleaning
@@ -99,16 +103,53 @@ Each user will not only be able to see the nearest breweries based on their own 
 ## Visualization
 The models made were created for the recommendation engine, but in order to see the data we need to visualize our findings. The following visualizations were interesting parts of the analysis in which I came across during the modeling process. 
 
-<p>
-    insert visuals of cool interesting maybe even interactive visuals with the dataset
-</p> 
+<figure>
+    <p align="center">
+    <img src="Models/beer_map.jpeg"
+         alt="Brewery Map"
+         width="800"
+         height="450">
+    </p>
+</figure>
+
+This map contains all breweries that were used within the dataset as a heatmap. Most of them are located within California. 
+
+<figure>
+    <p align="center">
+    <img src="Models/CA_beer_types_by_Year.jpeg"
+         alt="California Beer Types each Year"
+         width="800"
+         height="450">
+    </p>
+</figure>
+
+Being that California had a large percentage of the data, they greatly influenced the recommendation system to recommend users IPAs as well as Ales. 
+
+- IPA beers are actually India Pale Ales, but they are within their own beer type as they are largely different compared to other Ales. 
+
+- Ale's are of all different types such as brown ales, irish ales and pale ales. 
+
+
+<figure>
+    <p align="center">
+    <img src="Models/ABV_by_Beer_Type.jpeg"
+         alt="ABV of Beer Types"
+         width="800"
+         height="450">
+    </p>
+</figure>
+
+The content-based model was created using the alcohol by volume or ABV of beer. As you can see the ABV of each beer directly correlates with their beer type. These will not be as accurate as there are over 100 different types of beer within the world. 
 
 <br>
 
 ## Conclusion
-    <p>
-        
-    </p>
+
+The recommendation system will work by collecting data on the types of beers customers are buying and which ones they prefer. This data will be used to generate personalized recommendations based on their past purchases and preferences. The recommendation system can also provide customers with information on new and seasonal beers that they may be interested in trying based on their previous purchases.
+
+The brewery can also use the recommendation system to gather insights on which beers are popular and which ones are not, allowing them to adjust their inventory and brewing process accordingly. By using the recommendation system, the brewery can provide customers with a personalized experience and build stronger relationships with their customers. This will help increase customer loyalty and ultimately lead to the success of the brewery.
+
+Additionally, the brewery can use the recommendation system to offer promotions and discounts on beers that are recommended to customers based on their preferences. This can encourage customers to try new beers and expand their taste preferences. Overall, implementing a recommendation system can greatly benefit the brewery and its customers by improving communication, increasing customer satisfaction, and ultimately leading to a more successful business.
 
 <br>
 
@@ -119,6 +160,7 @@ The models made were created for the recommendation engine, but in order to see 
 ├── data                                    <- CSV data files
 ├── Notebooks                               <- Jupyter notebooks dedicated to data exploration and modeling
 ├── Models                                  <- Data files used in analysis
+├── Final_Notebook                          <- Notebook containing details about analysis and models
 ├── Collaborative-Based_Model.ipynb         <- Narrative documentation of Collaborative analysis in Jupyter notebook
 ├── Item-Based_Model.ipynb                  <- Narrative documentation of Item-Based analysis in Jupyter notebook
 ├── Location-Based_Model.ipynb              <- Narrative documentation of Location-Based analysis in Jupyter notebook
