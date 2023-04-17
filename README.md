@@ -57,18 +57,28 @@ All models performed were using the surprise package and model tuning considerin
 #### Collaborative Model
 This model was created in order to predict a user's rating based off of similar users ratings of certain beers. Using this information it will then provide an accurate list of 5 beers that the user will most likely enjoy. The recommendations created were for not only recommending beers, but also breweries that produce similar beers as to the ones highly-rated. 
 
-<p>
-    insert code snip of model with recommendations for user
-</p> 
+<figure>
+    <p align="center">
+    <img src="Models/Collab_Model.png"
+         alt="Collaborative"
+         width="800"
+         height="450">
+    </p>
+</figure>
 
 <br> 
 
 #### Content-Based Model
 As a Content-based model, this was created in order to see how a user will rate a beer based on the alcohol percentage. By many of those who avidly drink beers, they consider beers with a high to very-high alcohol percentage to be of bitter-taste and flavorless resulting in a low rating for most. Each beers alcohol percentage directly correlates to the beers types. For example, a beer with a high alcohol percentage is most likely a lager, while a beer with a low alcohol percentage is most likely a stout. 
 
-<p>
-    insert code snip of model with recommendations for user
-</p> 
+<figure>
+    <p align="center">
+    <img src="Models/Content_Model.png"
+         alt="Content"
+         width="800"
+         height="450">
+    </p>
+</figure>
 
 <br> 
 
@@ -94,9 +104,14 @@ Considering the dataset includes information about the breweries, but also their
 
 Each user will not only be able to see the nearest breweries based on their own coordinates, but also each breweries top 5 rated beers in order to help the user decide which brewery they would prefer. 
 
-<p>
-    insert code snip of model with recommendations for user
-</p> 
+<figure>
+    <p align="center">
+    <img src="Models/Location_Model.png"
+         alt="Location"
+         width="800"
+         height="450">
+    </p>
+</figure>
 
 <br>
 
