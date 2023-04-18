@@ -109,7 +109,7 @@ Each user will not only be able to see the nearest breweries based on their own 
     <img src="Models/Location_Model.png"
          alt="Location"
          width="900"
-         height="200">
+         height="150">
     </p>
 </figure>
 
