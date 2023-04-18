@@ -4,7 +4,7 @@
     </h1>
 </center>
 
-### <i> Performed using multiple machine learning models and filtering techniques to accurately predict the overall rating of a beer. The Focus of this project is to create a well-established recommendation system that can predict a user's preferences using review data as well as beer data.
+### <i> Performed using multiple machine learning models and filtering techniques to accurately predict the overall rating of a beer. The focus of this project is to create a well-established recommendation system that can predict a user's preferences using review data as well as beer data.
 </i> 
 
 #### Date: April 21, 2023
