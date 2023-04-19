@@ -7,7 +7,7 @@
 ### <i> Performed using multiple machine learning models and filtering techniques to accurately predict the overall rating of a beer. The focus of this project is to create a well-established recommendation system that can predict a user's preferences using review data as well as beer data.
 </i> 
 
-#### Date: April 21, 2023 
+#### Date: April 21, 2023
 #### Author: [Sean Conlon](https://www.linkedin.com/in/seanconlon29/)
 
 <br>
@@ -16,7 +16,8 @@
     <p align="center">
     <img src="Illustrations/backgroundimg.png"
          alt="Beer Picture for README"
-         >
+         width="800"
+         height="450">
     </p>
 </figure>
 
@@ -41,7 +42,8 @@ Many breweries that open end up ultimately failing due to their lack of communic
     <p align="center">
     <img src="Illustrations/contentvscollab.png"
          alt="Content vs Collab"
-         >
+         width="600"
+         height="450">
     </p>
 </figure>
 
@@ -68,7 +70,8 @@ This model was created in order to predict a user's rating based off of similar 
     <p align="center">
     <img src="Models/Collab_Model.png"
          alt="Collaborative"
-         >
+         width="700"
+         height="300">
     </p>
 </figure>
 
@@ -81,7 +84,8 @@ As a Content-based model, this was created in order to see how a user will rate 
     <p align="center">
     <img src="Models/Content_Model.png"
          alt="Content"
-         >
+         width="750"
+         height="350">
     </p>
 </figure>
 
@@ -123,7 +127,8 @@ The models made were created for the recommendation engine, but to examine the d
     <p align="center">
     <img src="Models/beer_map.png"
          alt="Brewery Map"
-         >
+         width="800"
+         height="450">
     </p>
 </figure>
 
@@ -132,7 +137,8 @@ The heatmap on this map displays all the breweries included in the dataset, with
     <p align="center">
     <img src="Models/CA_beer_types_by_Year.jpeg"
          alt="California Beer Types each Year"
-         >
+         width="800"
+         height="450">
     </p>
 </figure>
 
@@ -147,7 +153,8 @@ The high volume of data from California heavily impacted the recommendation syst
     <p align="center">
     <img src="Models/ABV_by_Beer_Type.jpeg"
          alt="ABV of Beer Types"
-         >
+         width="800"
+         height="450">
     </p>
 </figure>
 
