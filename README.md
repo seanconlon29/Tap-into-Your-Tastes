@@ -29,7 +29,7 @@
 
 ## Introduction
 
-This project was created through a combination of the skills I have learned in the Data Science program at Flatiron School. I discovered a dataset containing breweries across the United States [Here](https://www.kaggle.com/code/stansilas/mapping-brewery-pubs-across-us-states/input) as well as a dataset containing over 1.5 million reviews of beers [Here](https://www.kaggle.com/datasets/thedevastator/1-5-million-beer-reviews-from-beer-advocate). I merged the two datasets creating a beer data frame. This was then used to create a beer recommender system using multiple machine-learning models and filtering techniques. The resulting dataset withheld approximately 160,000 reviews.
+This project was created through a combination of the skills I have learned in the Data Science program at Flatiron School. I discovered a dataset containing breweries across the United States [Here](https://www.kaggle.com/code/stansilas/mapping-brewery-pubs-across-us-states/input) as well as a dataset containing over 1.5 million reviews of beers [Here](https://www.kaggle.com/datasets/thedevastator/1-5-million-beer-reviews-from-beer-advocate). I merged the two datasets creating a beer data frame. This was then used to create a beer recommender system using multiple machine-learning models and filtering techniques. The resulting dataset included approximately 160,000 reviews.
 
 ## Business Problem
 
