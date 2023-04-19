@@ -1,7 +1,6 @@
 <center>
     <h1> 
-        Let's Tap into Your Taste: 
-        A Beer Recommendation System
+        Tap into Your Taste: A Beer Recommendation System
     </h1>
 </center>
 
