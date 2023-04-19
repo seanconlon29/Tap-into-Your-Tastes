@@ -35,8 +35,6 @@ This project was created through a combination of the skills I have learned in t
 
 Many breweries that open end up ultimately failing due to their lack of communication with their consumers. This is a large issue with most businesses and is the leading cause of 85% of businesses closing. Each brewery that opens should adapt its business to using a recommendation system to not only help the brewery decide which beers generate more business, but also provide users with some options and opportunities to try the assortment of beer types.
 
-<br>
-
 ## Data Cleaning
 Data cleaning was performed using the following steps:
 1. Merging the two datasets into one data frame labeled as beer_df.
