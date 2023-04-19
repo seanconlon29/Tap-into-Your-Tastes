@@ -12,7 +12,7 @@
     </p>
 </figure>
 
-### <i> Performed using multiple machine learning models and filtering techniques to accurately predict the overall rating of a beer. The focus of this project is to create a well-established recommendation system that can predict a user's preferences using review data as well as beer data.
+### <i> Performed using various machine learning models and filtering techniques to precisely predict the rating of a beer. The project focus is to create a well-established recommendation system that can predict a user's preferences using reviews and beer data.
 </i> 
 
 #### Date: April 21, 2023
@@ -29,11 +29,11 @@
 
 ## Introduction
 
-This project was created through a culmination of the skills I have learned in the Data Science program at Flatiron School. Using datasets from the links provided I discovered a dataset containing breweries across the United States [Brewery Dataset Here](https://www.kaggle.com/code/stansilas/mapping-brewery-pubs-across-us-states/input) as well as a dataset containing over 1.5 million reviews of beers [Review Dataset Here](https://www.kaggle.com/datasets/thedevastator/1-5-million-beer-reviews-from-beer-advocate). I merged the two datasets together creating a beer dataframe. This was then used to create a beer recommender system using multiple machine learning models and filtering techniques. The resulting dataset withheld approximately 160,000 reviews.
+This project was created through a culmination of the skills I have learned in the Data Science program at Flatiron School. Using datasets from the links provided I discovered a dataset containing breweries across the United States [Brewery Dataset Here](https://www.kaggle.com/code/stansilas/mapping-brewery-pubs-across-us-states/input) as well as a dataset containing over 1.5 million reviews of beers [Review Dataset Here](https://www.kaggle.com/datasets/thedevastator/1-5-million-beer-reviews-from-beer-advocate). I merged the two datasets creating a beer data frame. This was then used to create a beer recommender system using multiple machine-learning models and filtering techniques. The resulting dataset withheld approximately 160,000 reviews.
 
 ## Business Problem
 
-Many breweries that open end up ultimately failing due to their lack of communication with their consumers. This is a large issue with most businesses that open and is the leading cause of 85% of businesses closing. Each brewery that opens should adapt their business to using a recommendation system to not only help the brewery decide which beers generate more business, but also provide users with some options and opportunities to try the assortment of beers types. 
+Many breweries that open end up ultimately failing due to their lack of communication with their consumers. This is a large issue with most businesses that open and is the leading cause of 85% of businesses closing. Each brewery that opens should adapt its business to using a recommendation system to not only help the brewery decide which beers generate more business, but also provide users with some options and opportunities to try the assortment of beer types. 
 
 <figure>
     <p align="center">
@@ -49,21 +49,21 @@ Many breweries that open end up ultimately failing due to their lack of communic
 
 ## Data Cleaning
 Data cleaning was performed using the following steps:
-1. Merging the two datasets into one dataframe labeled as beer_df.
-2. Only keeping the top 50 breweries within the United States, to reduce the size of the dataset and increase the accuracy of the models. 
-3. Removed all rows that contained less than 5000 entires per year, as it helpped the recommendation systems accuracy.
+1. Merging the two datasets into one data frame labeled as beer_df.
+2. Only keeping the top 50 breweries within the United States, reduces the size of the dataset and increases the accuracy of the models. 
+3. Removed all rows that contained less than 5000 entries per year, as it helped the recommendation systems' accuracy.
 4. Removing any missing, unneeded duplicate values as well as outliers unnecessary for the analysis.
 5. Feature engineering of columns to create new features that would be useful for the analysis as well as data visualization.
 
 <br>
 
 ## Modeling
-All models performed were using the surprise package and model tuning considering GridSearchCV as well as RandomizedSearchCV. Each model has an accuracy score that is sufficient enough to be less than half a rate off from the actual rating. These models include the Collaborative Model which prioritizes the users reviews and the Item-Based Model which prioritizes each feature that was rated. They were then combined into an Ensemble Model to accurately predict a beer's alcohol by volume (ABV) based on the brewery the beer was from. The last model created was Location-Based which takes advantage of the latitude and longitude coordinates to provide the necessary recommentations. 
+All models performed were using the surprise package and model tuning considering GridSearchCV as well as RandomizedSearchCV. Each model has an accuracy score that is sufficient enough to be less than half a rate off from the actual rating. These models include the Collaborative Model which prioritizes the users' reviews and the Item-Based Model which prioritizes each feature that was rated. They were then combined into an Ensemble Model to accurately predict a beer's alcohol by volume (ABV) based on the brewery the beer was from. The last model created was Location-Based which takes advantage of the latitude and longitude coordinates to provide the necessary recommendations. 
 
 #### Collaborative Model
-This model was created in order to predict a user's rating based off of similar users ratings of certain beers. Using this information it will then provide an accurate list of 5 beers that the user will most likely enjoy. The recommendations created were for not only recommending beers, but also breweries that produce similar beers as to the ones highly-rated. 
+This model was created to predict a users' rating based on similar ratings of certain beers. Using this information it will then provide an accurate list of 5 beers that the user will most likely enjoy. The recommendations created were for not only recommending beers, but also breweries that produce similar ones to those highly rated. 
 
-This model performed decently well compared to the RMSE and MAE scores of the baseline, using NormalPredictor. It was then tested using mulitple algoritms such as SVD and KNNBasic, along with parameter tuning of the model. Overall, the model performed pretty well with an RMSE and MAE around 0.3 meaning the accuracy performed was approximately 70%. 
+This model performed decently well compared to the RMSE and MAE scores of the baseline, using NormalPredictor. It was then tested using multiple algoritms such as SVD and KNNBasic, along with parameter tuning of the model. Overall, the model performed pretty well with an RMSE and MAE of 0.3 meaning the accuracy performed was approximately 70%. 
 
 <figure>
     <p align="center">
@@ -77,9 +77,9 @@ This model performed decently well compared to the RMSE and MAE scores of the ba
 <br> 
 
 #### Content-Based Model
-As a Content-based model, this was created in order to see how a user will rate a beer based on the alcohol percentage. By many of those who avidly drink beers, they consider beers with a high to very-high alcohol percentage to be of bitter-taste and flavorless resulting in a low rating for most. Each beers alcohol percentage directly correlates to the beers types. For example, a beer with a high alcohol percentage is most likely a lager, while a beer with a low alcohol percentage is most likely a stout. 
+As a Content-based model, this was created to see how a user will rate a beer based on the alcohol percentage. Many of those who avidly drink beers consider those with a high to very-high alcohol percentage to be of bitter-taste and flavorless resulting in a low rating for most. Each alcohol percentage directly correlates to the beer types. For example, a beer with a high alcohol percentage is most likely a lager, while a beer with a low alcohol percentage is most likely a stout. 
 
-Baseline content-based model performed very well, although when using algorithms such as KNN and SVD, the model was performing at a much higher accuracy. Using hyperparameter tuning, the final performance of this model was approximately a 90% accuracy rating when measured with an RMSE and MAE of around 0.1.
+The baseline content-based model performed very well, although when using algorithms such as KNN and SVD, the model was performing at a much higher accuracy. Using hyperparameter tuning, the final performance of this model was approximately a 90% accuracy rating when measured with an RMSE and MAE of around 0.1.
 
 <figure>
     <p align="center">
@@ -93,7 +93,7 @@ Baseline content-based model performed very well, although when using algorithms
 <br> 
 
 #### Ensemble Model
-As a bonus model, this ensemble was created to correctly predict what a users preference would be, there must be certain features of the beers within the dataset. Luckily there were reviews on certain features of each beer rating. This model was created due to the users ratings of different features and ulimately aligned with the review_overall ratings. These included:
+As a bonus model, this ensemble was created to correctly predict what a user's preference would be, there must be certain features of the beers within the dataset. Luckily there were reviews on certain features of each beer rating. This model was created due to the users' ratings of different features and ultimately aligned with the review_overall ratings. These included:
 - Aroma
     - The smell of the beer, rated from good to bad. 
 - Appearance
@@ -101,14 +101,14 @@ As a bonus model, this ensemble was created to correctly predict what a users pr
 - Taste
     - The flavoring of the beer.
 - Palate
-    - This is where the carbonation, mouthfeel, alcohol profile and texture really come in.
+    - This is where the carbonation, mouthfeel, alcohol profile, and texture come in.
 
 <br>
 
 #### Location-Based Model
-Considering the dataset includes information about the breweries, but also their locations. I felt the need to take advantage of the coordinates provided in order to give a great recommendation not only based on beers. Models performance can be further improved with further experimentation as well as better necessary data to accurately provide users with recommendations. The model was created using help from outside sources, given that I had no prior knowledge of the haversine formula. This formula combined with the coordinates as well as some functions creates a wonderful recommendation for each user.
+Considering the dataset includes information about the breweries, but also their locations. I felt the need to take advantage of the coordinates provided to give a great recommendation not only based on beers. Models performance can be further improved with further experimentation as well as better necessary data to accurately provide users with recommendations. The model was created using help from outside sources, given that I had no prior knowledge of the haversine formula. This formula combined with the coordinates as well as some functions creates a wonderful recommendation for each user.
 
-Each user will not only be able to see the nearest breweries based on their own coordinates, but also each breweries top 5 rated beers in order to help the user decide which brewery they would prefer. 
+Each user will not only be able to see the nearest brewery's based on their coordinates, but also each breweries top 5 rated beers to help the user decide which brewery they would prefer. 
 
 <figure>
     <p align="center">
