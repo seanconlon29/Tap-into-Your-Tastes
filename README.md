@@ -16,8 +16,7 @@
     <p align="center">
     <img src="Illustrations/beer_background.jpeg"
          alt="Beer Picture for README"
-         width="800"
-         height="450">
+         >
     </p>
 </figure>
 
