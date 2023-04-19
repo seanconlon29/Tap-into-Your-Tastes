@@ -58,6 +58,7 @@ All models were performed with the surprise package and tuned using GridSearchCV
 </figure>
 
 #### Collaborative Model
+This model was created to predict each users rating based on similars users ratings. This will provide an accurate list
 This model was created to predict a users' rating based on similar ratings of certain beers. Using this information it will then provide an accurate list of 5 beers that the user will most likely enjoy. The recommendations created were for not only recommending beers, but also breweries that produce similar ones to those highly rated. 
 
 REWORD COMPLETELY, AWFUL JOB SEAN
@@ -105,7 +106,7 @@ As a bonus model, this ensemble was created to correctly predict a user's prefer
 <br>
 
 #### Location-Based Model
-Considering the dataset includes information about the breweries, but also their locations. I felt the need to take advantage of the coordinates provided to give a great recommendation not only based on beers. Models performance can be further improved with further experimentation as well as better necessary data to accurately provide users with recommendations. The model was created using help from outside sources, given that I had no prior knowledge of the haversine formula. This formula combined with the coordinates as well as some functions creates a wonderful recommendation for each user.
+Considering the dataset includes information about the breweries and their locations. I felt the need to take advantage of the coordinates provided to give a great recommendation not only based on beers. Models performance can be further improved with further experimentation as well as better necessary data to accurately provide users with recommendations. The model was created using help from outside sources (stated within the notebook), given that I had no prior knowledge of the haversine formula. This formula combined with the coordinates as well as some functions creates a wonderful recommendation for each user.
 
 Each user will not only be able to see the nearest brewery's based on their coordinates, but also each breweries top 5 rated beers to help the user decide which brewery they would prefer. 
 
