@@ -18,8 +18,6 @@
 #### Date: April 21, 2023
 #### Author: [Sean Conlon](https://www.linkedin.com/in/seanconlon29/)
 
-<br>
-
 ## Table of Contents
 
 - [Introduction](#introduction)
