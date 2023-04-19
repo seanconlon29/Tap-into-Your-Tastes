@@ -123,6 +123,8 @@ Each user will not only be able to see the nearest breweries based on their own 
 ## Visualization
 The models made were created for the recommendation engine, but to examine the data we must present our discoveries visually. Here are some noteworthy visualizations that emerged during the modeling phase.
 
+<br>
+
 <figure>
     <p align="center">
     <img src="Models/beer_map.png"
@@ -133,6 +135,9 @@ The models made were created for the recommendation engine, but to examine the d
 </figure>
 
 The heatmap on this map displays all the breweries included in the dataset, with the majority located in California.
+
+<br>
+
 <figure>
     <p align="center">
     <img src="Models/CA_beer_types_by_Year.jpeg"
@@ -148,6 +153,7 @@ The high volume of data from California heavily impacted the recommendation syst
 
 - Ales encompass a diverse range of beer styles, including brown ales, Irish ales, and pale ales.
 
+<br>
 
 <figure>
     <p align="center">
