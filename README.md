@@ -62,7 +62,7 @@ This model was created to predict a users' rating based on similar ratings of ce
 
 REWORD COMPLETELY, AWFUL JOB SEAN
 
-This model performed decently well compared to the RMSE and MAE scores of the baseline, using NormalPredictor. It was then tested using multiple algoritms such as SVD and KNNBasic, along with parameter tuning of the model. Overall, the model performed pretty well with an RMSE and MAE of 0.3 meaning the accuracy performed was approximately 70%. 
+This model performed decently well compared to the RMSE and MAE scores of the baseline which uses the NormalPredictor algorithm. It was then tested using multiple algoritms such as SVD and KNNBasic, along with parameter tuning of the model. Overall, the model performed pretty well with an RMSE and MAE of 0.3 meaning the accuracy performed was approximately 70%. 
 
 <figure>
     <p align="center">
