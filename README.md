@@ -14,7 +14,7 @@
 
 <figure>
     <p align="center">
-    <img src="Illustrations/backgroundimg.png"
+    <img src="Illustrations/beer_background.jpeg"
          alt="Beer Picture for README"
          width="800"
          height="450">
