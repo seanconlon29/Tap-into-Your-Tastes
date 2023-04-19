@@ -92,7 +92,7 @@ The baseline content-based model performed very well, although when using algori
 <br> 
 
 #### Ensemble Model
-As a bonus model, this ensemble was created to correctly predict what a user's preference would be, there must be certain features of the beers within the dataset. Luckily there were reviews on certain features of each beer rating. This model was created due to the users' ratings of different features and ultimately aligned with the review_overall ratings. These included:
+As a bonus model, this ensemble was created to correctly predict a user's preference would be. There must be certain features of the beers within the dataset and luckily there were reviews on certain features of each beer rating. This model was created due to the users' ratings of different features and ultimately aligned with the review_overall ratings. These included:
 - Aroma
     - The smell of the beer, rated from good to bad. 
 - Appearance
