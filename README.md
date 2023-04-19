@@ -24,7 +24,6 @@
 ## Table of Contents
 
 - [Introduction](#introduction)
-
 - [Data Cleaning](#data-cleaning)
 - [Modeling](#modeling)
 - [Visualization](#visualization)
@@ -103,10 +102,6 @@ As a bonus model, this ensemble was created to correctly predict what a users pr
 - Palate
     - This is where the carbonation, mouthfeel, alcohol profile and texture really come in.
 
-<p>
-    insert code snip of model with recommendations for user
-</p> 
-
 <br>
 
 #### Location-Based Model
@@ -126,7 +121,7 @@ Each user will not only be able to see the nearest breweries based on their own 
 <br>
 
 ## Visualization
-The models made were created for the recommendation engine, but in order to see the data we need to visualize our findings. The following visualizations were interesting parts of the analysis in which I came across during the modeling process. 
+The models made were created for the recommendation engine, but to examine the data we must present our discoveries visually. Here are some noteworthy visualizations that emerged during the modeling phase.
 
 <figure>
     <p align="center">
@@ -137,8 +132,7 @@ The models made were created for the recommendation engine, but in order to see 
     </p>
 </figure>
 
-This map contains all breweries that were used within the dataset as a heatmap. Most of them are located within California. 
-
+The heatmap on this map displays all the breweries included in the dataset, with the majority located in California.
 <figure>
     <p align="center">
     <img src="Models/CA_beer_types_by_Year.jpeg"
@@ -148,11 +142,11 @@ This map contains all breweries that were used within the dataset as a heatmap. 
     </p>
 </figure>
 
-Being that California had a large percentage of the data, they greatly influenced the recommendation system to recommend users IPAs as well as Ales. 
+The high volume of data from California heavily impacted the recommendation system's suggestion of IPAs and Ales to users.
 
-- IPA beers are actually India Pale Ales, but they are within their own beer type as they are largely different compared to other Ales. 
+- India Pale Ales, or IPAs, are a distinct type of beer that differs significantly from other Ales.
 
-- Ale's are of all different types such as brown ales, irish ales and pale ales. 
+- Ales encompass a diverse range of beer styles, including brown ales, Irish ales, and pale ales.
 
 
 <figure>
@@ -164,7 +158,7 @@ Being that California had a large percentage of the data, they greatly influence
     </p>
 </figure>
 
-The content-based model was created using the alcohol by volume or ABV of beer. As you can see the ABV of each beer directly correlates with their beer type. These will not be as accurate as there are over 100 different types of beer within the world. 
+The alcohol by volume (ABV) of beer was utilized to develop the content-based model, and it is evident that the ABV of each beer is strongly associated with its beer style. However, due to the vast variety of over 100 different beer types worldwide, the accuracy of the model may be limited.
 
 <br>
 
