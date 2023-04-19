@@ -63,6 +63,8 @@ All models performed were using the surprise package and model tuning considerin
 #### Collaborative Model
 This model was created in order to predict a user's rating based off of similar users ratings of certain beers. Using this information it will then provide an accurate list of 5 beers that the user will most likely enjoy. The recommendations created were for not only recommending beers, but also breweries that produce similar beers as to the ones highly-rated. 
 
+This model performed decently well compared to the RMSE and MAE scores of the baseline, using NormalPredictor. It was then tested using mulitple algoritms such as SVD and KNNBasic, along with parameter tuning of the model. Overall, the model performed pretty well with an RMSE and MAE around 0.3 meaning the accuracy performed was approximately 70%. 
+
 <figure>
     <p align="center">
     <img src="Models/Collab_Model.png"
@@ -77,6 +79,8 @@ This model was created in order to predict a user's rating based off of similar 
 #### Content-Based Model
 As a Content-based model, this was created in order to see how a user will rate a beer based on the alcohol percentage. By many of those who avidly drink beers, they consider beers with a high to very-high alcohol percentage to be of bitter-taste and flavorless resulting in a low rating for most. Each beers alcohol percentage directly correlates to the beers types. For example, a beer with a high alcohol percentage is most likely a lager, while a beer with a low alcohol percentage is most likely a stout. 
 
+Baseline content-based model performed very well, although when using algorithms such as KNN and SVD, the model was performing at a much higher accuracy. Using hyperparameter tuning, the final performance of this model was approximately a 90% accuracy rating when measured with an RMSE and MAE of around 0.1.
+
 <figure>
     <p align="center">
     <img src="Models/Content_Model.png"
@@ -89,7 +93,7 @@ As a Content-based model, this was created in order to see how a user will rate 
 <br> 
 
 #### Ensemble Model
-As a bonus model, this ensemble was created to correctly predict what a users preference would be, there must be certain features of the beers within the dataset. Luckily there were reviews on certain features of each beer rating. These included:
+As a bonus model, this ensemble was created to correctly predict what a users preference would be, there must be certain features of the beers within the dataset. Luckily there were reviews on certain features of each beer rating. This model was created due to the users ratings of different features and ulimately aligned with the review_overall ratings. These included:
 - Aroma
     - The smell of the beer, rated from good to bad. 
 - Appearance
