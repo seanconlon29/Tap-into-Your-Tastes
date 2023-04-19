@@ -33,17 +33,7 @@ This project was created through a combination of the skills I have learned in t
 
 ## Business Problem
 
-Many breweries that open end up ultimately failing due to their lack of communication with their consumers. This is a large issue with most businesses and is the leading cause of 85% of businesses closing. Each brewery that opens should adapt its business to using a recommendation system to not only help the brewery decide which beers generate more business, but also provide users with some options and opportunities to try the assortment of beer types. 
-
-<figure>
-    <p align="center">
-    <img src="Illustrations/contentvscollab.png"
-         alt="Content vs Collab"
-         width="600"
-         height="400">
-    </p>
-</figure>
-
+Many breweries that open end up ultimately failing due to their lack of communication with their consumers. This is a large issue with most businesses and is the leading cause of 85% of businesses closing. Each brewery that opens should adapt its business to using a recommendation system to not only help the brewery decide which beers generate more business, but also provide users with some options and opportunities to try the assortment of beer types.
 
 <br>
 
@@ -59,6 +49,15 @@ Data cleaning was performed using the following steps:
 
 ## Modeling
 All models performed were using the surprise package and model tuning considering GridSearchCV as well as RandomizedSearchCV. Each model has an accuracy score that is sufficient enough to be less than half a rate off from the actual rating. These models include the Collaborative Model which prioritizes the users' reviews and the Item-Based Model which prioritizes each feature that was rated. They were then combined into an Ensemble Model to accurately predict a beer's alcohol by volume (ABV) based on the brewery the beer was from. The last model created was Location-Based which takes advantage of the latitude and longitude coordinates to provide the necessary recommendations. 
+
+<figure>
+    <p align="center">
+    <img src="Illustrations/contentvscollab.png"
+         alt="Content vs Collab"
+         width="600"
+         height="400">
+    </p>
+</figure>
 
 #### Collaborative Model
 This model was created to predict a users' rating based on similar ratings of certain beers. Using this information it will then provide an accurate list of 5 beers that the user will most likely enjoy. The recommendations created were for not only recommending beers, but also breweries that produce similar ones to those highly rated. 
