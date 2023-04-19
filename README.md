@@ -119,7 +119,7 @@ Each user will not only be able to see the nearest brewery's based on their coor
 <br>
 
 ## Visualization
-The models made were created for the recommendation engine, but to examine the data we must present our discoveries visually. Here are some noteworthy visualizations that emerged during the modeling phase.
+The models were created for the recommendation engine, but to examine the data we must present our discoveries visually. Here are some noteworthy visualizations that emerged during the modeling phase.
 
 <figure>
     <p align="center">
@@ -131,6 +131,7 @@ The models made were created for the recommendation engine, but to examine the d
 </figure>
 
 The heatmap on this map displays all the breweries included in the dataset, with the majority located in California.
+
 <figure>
     <p align="center">
     <img src="Models/CA_beer_types_by_Year.jpeg"
