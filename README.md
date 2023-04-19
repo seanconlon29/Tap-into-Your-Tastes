@@ -43,7 +43,7 @@ Many breweries that open end up ultimately failing due to their lack of communic
     <img src="Illustrations/contentvscollab.png"
          alt="Content vs Collab"
          width="600"
-         height="450">
+         height="400">
     </p>
 </figure>
 
