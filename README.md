@@ -183,8 +183,8 @@ Additionally, the brewery can use the recommendation system to offer promotions 
 ├── Models                                  <- Data files used in analysis
 ├── Notebooks                               <- Jupyter notebooks dedicated to data exploration and modeling
 ├── data                                    <- CSV data files
-├── Collaborative-Based_Model.ipynb         <- Located in Notebooks folder, Narrative documentation of Collaborative analysis in Jupyter notebook
-├── Content-Based_Model.ipynb               <- Located in Notebooks folder, Narrative documentation of Content-Based analysis in Jupyter notebook
+├── Collaborative-Based_Model.ipynb         <- Located in Notebooks folder, Narrative documentation of Collaborative analysis
+├── Content-Based_Model.ipynb               <- Located in Notebooks folder, Narrative documentation of Content-Based analysis
 ├── Final_Notebook                          <- Located in Notebooks folder, Notebook containing details about analysis and models
 ├── Location-Based_Model.ipynb              <- Narrative documentation of Location-Based analysis in Jupyter notebook
 ├── Presentation.pdf                        <- PDF version of project presentation
