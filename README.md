@@ -132,6 +132,8 @@ The models were created for the recommendation engine, but to examine the data w
 
 The heatmap on this map displays all the breweries included in the dataset, with the majority located in California.
 
+<br>
+
 <figure>
     <p align="center">
     <img src="Models/CA_beer_types_by_Year.jpeg"
@@ -146,6 +148,8 @@ The high volume of data from California heavily impacted the recommendation syst
 - India Pale Ales, or IPAs, are a distinct type of beer that differs significantly from other Ales.
 
 - Ales encompass a diverse range of beer styles, including brown ales, Irish ales, and pale ales.
+
+<br>
 
 
 <figure>
