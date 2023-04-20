@@ -46,7 +46,7 @@ Data cleaning was performed using the following steps:
 <br>
 
 ## Modeling
-All models were performed with the surprise package and tuned using GridSearchCV and RandomizedSearchCV. These models include the Collaborative Model which prioritizes the users' reviews and the Item-Based Model which prioritizes each feature that was rated. They were then combined into an Ensemble Model to accurately predict a beer's alcohol by volume (ABV) based on the brewery the beer was from. The last model created was Location-Based which takes advantage of the latitude and longitude coordinates to provide the necessary recommendations. 
+All models were performed with the surprise package and tuned using GridSearchCV and RandomizedSearchCV. These models include the Collaborative Model which prioritizes the users' reviews and the Content-Based Model which prioritizes each feature that was rated. They were then combined into an Ensemble Model to accurately predict a beer's alcohol by volume (ABV) based on the brewery the beer was from. The last model created was Location-Based which takes advantage of the latitude and longitude coordinates to provide the necessary recommendations. 
 
 <figure>
     <p align="center">
